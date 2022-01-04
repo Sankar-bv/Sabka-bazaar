@@ -1,0 +1,33 @@
+.category-link {
+    flex: none;
+    padding: 3%;
+    background-color: lightgray;
+    display: block;
+}
+
+#category-link-mobile {
+    display: none;
+}
+
+.link {
+    padding-bottom: 4%;
+    border-bottom: 1px solid;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen 
+  and (min-width : 321px) 
+  and (max-width : 480px) {
+    #category-link-mobile {
+        display: block;
+        background-color: #BF2957;
+        margin-bottom: 10px
+    }
+    .category-link {
+        display: none;
+    }
+}

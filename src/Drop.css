@@ -1,0 +1,18 @@
+#category-link-mobile {
+    display: none;
+}
+
+.category-link {
+    display: block;
+}
+
+@media only screen 
+  and (min-width : 321px) 
+  and (max-width : 480px) {
+    #category-link-mobile {
+        display: block;
+    }
+    .category-link {
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+.register {
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: 3% 20% 3%;
+    gap: 2rem
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.fields input {
+    width: 20vw;
+    /* border: none; */
+    /* border-bottom: 1rem; */
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-color: lightgray;
+}
+
+.signup {
+    font-weight: bold;
+}
+
+@media only screen 
+  and (min-width : 321px) 
+  and (max-width : 480px) {
+    .register {
+        flex-direction: column;
+    }
+
+    .fields input {
+        width: 40vw;
+    }
+    
+}
