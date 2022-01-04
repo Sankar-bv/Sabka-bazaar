@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { setCategoriesId } from './redux/Actions';
 import itemslist from './server/categories/index.get.json';
 // import { useHistory } from 'react-router-dom';
-import './Categories.css';
+// import '../Categories.css';
 import './Drop.css'
 
 const Drop = (props) => {

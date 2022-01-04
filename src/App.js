@@ -1,9 +1,9 @@
 import { Route, Switch } from 'react-router-dom';
 import Home from './Home/Home';
-import Collection from './Collection';
+import Collection from './Collection/Collection';
 import Allproducts from './Allproducts';
 import './App.css';
-import Header from './Header';
+import Header from './Header/Header';
 import SignIn from './Signin/SignIn';
 import Register from './Register/Register';
 import Copyright from './Copyright';

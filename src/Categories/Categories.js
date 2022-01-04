@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { setCategoriesId } from './redux/Actions';
-import itemslist from './server/categories/index.get.json';
+import { setCategoriesId } from '../redux/Actions';
+import itemslist from '../server/categories/index.get.json';
 import './Categories.css';
 
 const Categories = (props) => {

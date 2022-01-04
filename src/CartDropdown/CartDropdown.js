@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from 'react-redux';
-import { togglecartDropdown } from "./redux/Cart/CartActions";
+import { togglecartDropdown } from "../redux/Cart/CartActions";
 import './CartDropdown.css';
-import CartItem from "./CartItem";
+import CartItem from "../CartItem/CartItem";
 
 const CartDropdown = ({cartItems, togglecartDropdown, itemCount}) => {
     return (

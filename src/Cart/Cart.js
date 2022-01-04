@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { togglecartDropdown } from "./redux/Cart/CartActions";
+import { togglecartDropdown } from "../redux/Cart/CartActions";
 import './Cart.css';
 
 const Cart = (props) => {

@@ -1,10 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
-import Categories from "./Categories";
-import { addItem } from "./redux/Cart/CartActions";
-import Items from './server/products/index.get.json';
-import './Collection.css'
-import Drop from "./Drop";
+import Categories from "../Categories/Categories";
+import { addItem } from "../redux/Cart/CartActions";
+import Items from '../server/products/index.get.json';
+import './Collection.css';
 
 const Collection = (props) => {
     return (

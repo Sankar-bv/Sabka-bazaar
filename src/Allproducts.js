@@ -1,9 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
 import { addItem } from "./redux/Cart/CartActions";
-import Categories from "./Categories";
+import Categories from "./Categories/Categories";
 import Items from './server/products/index.get.json';
-import './Collection.css';
+import './Collection/Collection.css';
 
 const Allproducts = (props) => {
     return (
